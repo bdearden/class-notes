@@ -243,6 +243,9 @@ b. note that the inverse of a function is always a relation, but not always a fu
         </ul>
         and we define the <term>range</term> of the function <m>f</m> to be the set of images of every element in the domain, <m>A</m>, and often write the range by <m>f(A)</m>. Note that the range is a subset of the codomain, <m>f(A)\subseteq B</m>.
       </p>
+      <answer>
+        <video youtube="3pBXG34ojDY"/>
+      </answer>
     </definition>
 
     <note>
@@ -268,6 +271,10 @@ b. note that the inverse of a function is always a relation, but not always a fu
           </ol>
         </p>
       </statement>
+      <answer>
+        <video youtube="eDNgCcI8jL0"/>
+      </answer>
+
     </example>
 
     <definition>
@@ -286,6 +293,10 @@ b. note that the inverse of a function is always a relation, but not always a fu
       <p>
         To determine if a function <m>f: A \to B</m> is not injective, we find particular elements <m>x, y \in A</m> such that <m>x \not= y</m> but <m>f(x) = f(y)</m> (a counterexample!)
       </p>
+      <answer>
+        <video youtube="4i3SIx61-yQ"/>
+      </answer>
+
     </note>
 
     <!-- TODO: Next time have finite set examples (with different size sets to illustrate this better --> 
@@ -299,6 +310,10 @@ b. note that the inverse of a function is always a relation, but not always a fu
           </ol>
         </p>
       </statement>
+      <answer>
+        <video youtube="svYqYaVvp9g"/>
+      </answer>
+
     </example>
 
     <definition>
@@ -308,6 +323,10 @@ b. note that the inverse of a function is always a relation, but not always a fu
         <!--   f \text{ is surjective means } \forall y\in B\,\, \exists x\in A \,\, ( y = f(x) )  -->
         <!-- </me> -->
       </p>
+      <answer>
+        <video youtube="A2dQwaFFC8I"/>
+      </answer>
+
     </definition>
 
     <!-- TODO: Next time have finite set examples (with different size sets to illustrate this better --> 
@@ -323,6 +342,15 @@ b. note that the inverse of a function is always a relation, but not always a fu
           </ol>
         </p>
       </statement>
+      <answer>
+        <p> Two videos in this section: 
+        <video youtube="HlbvQ9uLjCU"/>
+        </p>
+        <p>
+          <video youtube="Zdi-9-RCPrE"/>
+        </p>
+      </answer>
+      
     </example>
 
     <note>
@@ -354,6 +382,10 @@ b. note that the inverse of a function is always a relation, but not always a fu
           </ol>
         </p>
       </statement>
+      <answer>
+        <video youtube="_e8FRN7xlGY"/>
+      </answer>
+
     </example>
 
     <definition>
@@ -377,6 +409,10 @@ b. note that the inverse of a function is always a relation, but not always a fu
           For the bijection(s) found in <xref ref="example-bijections"/>, find the inverse function.
         </p>
       </statement>
+      <answer>
+        <video youtube="VHzBUIDi_f4"/>
+      </answer>
+
     </example>
 
     <example>
@@ -385,6 +421,14 @@ b. note that the inverse of a function is always a relation, but not always a fu
           Restrict the domain and/or codomain so that <m>f(x) = x^2 + 1</m> is invertible. Verify your answer is correct.
         </p>
       </statement>
+      <solution>
+        <p>
+          In order for <m>f</m> to be injective, we can restrict the domain to just the non-negative real numbers: <m>[0, \infty)</m>. In order for <m>f</m> to be surjective, using the codomain to be the interval <m>[0, \infty)</m> works for the chosen domain.
+        </p>
+        <p>
+          Alternatively, if we choose the domain to be <m>\N</m>, then the range is only square numbers, so the codomain would need to be <m>\{0, 1, 4, 9, 16, \dots\}</m>.
+        </p>
+      </solution>
     </example>
 
     <!-- <definition> -->
@@ -473,6 +517,12 @@ b. note that the inverse of a function is always a relation, but not always a fu
           Let <m>f(x) = 5x-3</m> and <m>g(x) = 3x^2-5</m>. Find <m>f\circ g</m> and <m>g\circ f</m>
         </p>
       </statement>
+      <solution>
+        <p>
+          This is basic algebra. 
+          <m>(f \circ g)(x) = 15x^2 - 28 \and (g \circ f)(x) = 75x^2 - 90x + 22</m>
+        </p>
+      </solution>
     </example>
 
     <example>
@@ -481,6 +531,10 @@ b. note that the inverse of a function is always a relation, but not always a fu
           Suppose <m>f</m> and <m>f\circ g</m> are injective. Does it follow that <m>g</m> is also injective?
         </p>
       </statement>
+      <answer>
+        <video youtube="9XIjEKAMRZI"/>
+      </answer>
+
     </example>
 
     <note>
