@@ -224,6 +224,10 @@
             Prove that <m>\sqrt{2}</m> is irrational
           </p>
         </statement>
+        <answer>
+          <video youtube="cPbaYSiGqKU"/>
+        </answer>
+
       </example>
 
       <!-- <example> -->
@@ -264,6 +268,10 @@
           Prove that <m>n</m> is even if and only if <m>7n+4</m> is even.
         </p>
       </statement>
+      <answer>
+        <video youtube="rWvqVUvKBBs"/>
+      </answer>
+
     </example>
 
     <example>
@@ -277,6 +285,10 @@
           <li>The average of <m>a</m> and <m>b</m> is less than <m>b</m> </li>
         </ol>
       </statement>
+      <answer>
+        <video youtube="SSWODzVYxCc"/>
+      </answer>
+
     </example>
   </subsection>
 
@@ -301,6 +313,10 @@
             </li>
           </ul>
         </statement>
+        <answer>
+          <video youtube="pLwuZ-JaTms"/>
+        </answer>
+
       </example>
       <note>
         <statement>
@@ -317,6 +333,9 @@
             Prove that <m>5x + 5y</m> is an odd integer when <m>x</m> and <m>y</m> are integers of opposite parity (not both even, not both odd).
           </p>
         </statement>
+        <answer>
+          <video youtube="_UBA9HDFAYI"/>
+        </answer>
       </example>
     </p>
 
