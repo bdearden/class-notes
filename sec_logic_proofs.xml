@@ -405,6 +405,11 @@
           Show that if <m>a, b, c</m> are real numbers, then thare is a unique solution to the algebraic equation <m>ax+b=c</m>.
         </p>
       </statement>
+      <hint>
+        <p>
+          You know how to solve an algebraic equation. Now assume there's a second solution. Show that the two solutions are equal.
+        </p>
+      </hint>
     </example>
 
     <example>
@@ -413,6 +418,11 @@
           Show that if <m>n</m> is an odd integer, then there exists a unique integer <m>k</m> such that <m>n = (k-2) + (k+3)</m>
         </p>
       </statement>
+      <hint>
+        <p>
+          Similar to above, show that <m> k</m> satifies this equation, and then show that if you have another number, say <m>l</m> that also does, it must be the case that <m>k = l</m>.
+        </p>
+      </hint>
     </example>
 
 
