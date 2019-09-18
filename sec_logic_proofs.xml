@@ -356,6 +356,15 @@
           Prove that either <m>2 \cdot 10^{500} + 15</m> or <m>2 \cdot 10^{500} + 16</m> is not a perfect square.
         </p>
       </statement>
+      <hint>
+        <p>
+          Let me get you started on it, and we can discuss below. Notice that the two numbers are one apart from eachother. They're massive, so we don't necessarily know whether they're square, but we need only show that not more than one of them is square.
+        </p>
+        <p>
+          Let's imagine that I have a square number, namely <m>n^2</m>. Is it possible that <m>n^2 - 1</m> or <m>n^2 + 1</m> is also a square number? What condition on <m>n</m> is required?
+        </p>
+      </hint>
+
     </example>
 
     <example>
