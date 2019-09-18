@@ -373,6 +373,11 @@
           Show that between any two rational numbers is another rational number.
         </p>
       </statement>
+      <hint>
+        <p>
+          If we have two rational numbers <m>a/b</m> and <m>c/d</m> with <m>a, b, c, d \in \Z</m> and <m>b, d \ne 0</m>, then we can construct <m>\frac{a+c}{b+d}</m>. Show that this is a rational number which is contained between the two original numbers.
+        </p>
+      </hint>
     </example>
 
   </subsection>
@@ -385,6 +390,7 @@
     <p>
       The claim of a uniqueness theorem is that there exists an element that has a desired property, and that no other element has this property.
       The outline of our proof is often:
+
       <ul>
         <li>Prove the existence of <m>x</m>, some element that has the property we want.</li>
         <li>Assume that a second element, <m>y</m> also has that property.</li>
@@ -472,6 +478,29 @@
         </ol>
       </statement>
     </example>
+    <solution>
+      <p>
+        <ol>
+          <li>
+            For example, <m>n = 1</m> works, since <m>(1+4)^2 = 25 \ne 17 = 1+16</m>.
+          </li>
+          <li>
+            The number 7 isn't the sum of two squares. The only squares smaller than 7 are 1 and 4. They don't add to 7. 
+          </li>
+          <li>
+            Choosing <m>x=  -1 \and y = =1</m> we have <m>(-1)^2 = (1)^2</m> but certainly <m>-1 \ne 1</m>.
+          </li>
+          <li>
+            We know (from above) that <m>\sqrt{2}</m> is irrational. Multiply it by itself. You get <m>2</m> which is rational.
+          </li>
+          <li>
+            Consider <m>a = \sqrt{2}</m> and <m>b=-\sqrt{2}</m>. Then their sum, <m>a+b = 0</m>, which is rational.
+          </li>
+        </ol>
+
+      </p>
+
+    </solution>
 
   </subsection>
 
