@@ -120,6 +120,10 @@
         Prove that <m>2^n \gt n^2</m> for <m>n > 4</m>
       </p>
     </statement>
+    <answer>
+      <video youtube="DLiv7yoaEUE"/>
+    </answer>
+
   </example>
 
 
@@ -164,6 +168,10 @@
         Let <m>P(n)</m> be the statement that <q>postage of <m>n</m> cents can be formed using just 4 cent and 7 cent stamps</q>. Prove <m>P(n)</m> is true for <m>n\ge 18</m>.
       </p>
     </statement>
+    <answer>
+      <video youtube="73v1BI2omjs"/>
+    </answer>
+
   </example>
 
 
@@ -173,6 +181,10 @@
         Prove that every positive integer has a binary expansion, that is, it is either a power of two or it is a sum of distinct powers of two.
       </p>
     </statement>
+    <answer>
+      <video youtube="PvnCjyp9NHc"/>
+    </answer>
+
   </example>
 
 
