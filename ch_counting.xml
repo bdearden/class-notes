@@ -1089,6 +1089,10 @@
             </me>
           </p>
         </statement>
+        <answer>
+          <video youtube="_X2WjIsgoDo"/>
+        </answer>
+
       </theorem>
 
       <definition>
@@ -1244,6 +1248,10 @@
             by viewing the binomial coefficients as counting subsets.
           </p>
         </statement>
+        <answer>
+          <video youtube="56Myzj8jzqk"/>
+        </answer>
+
         <solution>
           <p>
             We begin by asking a question, and answering the question in two ways:
@@ -1301,6 +1309,10 @@
             For each, what question should we answer?
           </p>
         </statement>
+        <answer>
+          <video youtube="H06ogHj320U"/>
+        </answer>
+
       </example>
 
 
@@ -1317,6 +1329,10 @@
         <hint>
           How many pizzas of <m>n</m> toppings can be made if we can choose from <m>2n</m> toppings? 
         </hint>
+        <answer>
+          <video youtube="4N5qJMBCXLg"/>
+        </answer>
+
       </example>
 
 
