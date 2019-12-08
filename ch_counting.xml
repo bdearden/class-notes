@@ -755,6 +755,10 @@
           If I want only to select three books from my five books on the bookshelf, in how many ways can I do this? 
         </p>
       </statement>
+      <answer>
+        <video youtube="0DGmoVjw4Ms"/>
+      </answer>
+
     </example>
 
     <note>
@@ -772,6 +776,10 @@
           How many ways are there to choose five out of ten friends to invite over for dinner?
         </p>
       </statement>
+      <answer>
+        <video youtube="PX5JPp49HBw"/>
+      </answer>
+
     </example>
 
     <example>
@@ -780,6 +788,10 @@
           Two of your ten friends, Tim and Tammy just broke up. They can't stand to be in a room together. How many ways are there to choose five out of ten friends to invite to dinner, ensuring that Tim and Tammy are not both invited?
         </p>
       </statement>
+      <answer>
+        <video youtube="XDS19xuU2d8"/>
+      </answer>
+
     </example>
 
     <example>
@@ -788,6 +800,10 @@
           How many three element subsets from a set of five elements are there?
         </p>
       </statement>
+      <answer>
+        <video youtube="djWnHnLekz0"/>
+      </answer>
+
     </example>
 
     <example>
@@ -796,6 +812,10 @@
           From a standard deck of 52 cards, how many five card hands are possible?
         </p>
       </statement>
+      <answer>
+        <video youtube="taUwZ3TCJ2Y"/>
+      </answer>
+
     </example>
 
     <example>
@@ -804,6 +824,10 @@
           How many five card cards have exactly the same suit? 
         </p>
       </statement>
+      <answer>
+        <video youtube="uVvEBsD082s"/>
+      </answer>
+
     </example>
 
     <example>
@@ -812,6 +836,10 @@
           How many five card hands have at least one heart?
         </p>
       </statement>
+      <answer>
+        <video youtube="h7IgJde5bvY"/>
+      </answer>
+
     </example>
 
     <exercises>
@@ -1057,10 +1085,14 @@
           <p>
             Let <m>x \and y</m> be variables and <m>n</m> a natural number, then 
             <me>
-              (x+y)^n = \sum_{k=0}^n \binom{n}{k} x^{n} y^{n-k}
+              (x+y)^n = \sum_{k=0}^n \binom{n}{k} x^{n-k} y^{k}
             </me>
           </p>
         </statement>
+        <answer>
+          <video youtube="_X2WjIsgoDo"/>
+        </answer>
+
       </theorem>
 
       <definition>
@@ -1216,6 +1248,10 @@
             by viewing the binomial coefficients as counting subsets.
           </p>
         </statement>
+        <answer>
+          <video youtube="56Myzj8jzqk"/>
+        </answer>
+
         <solution>
           <p>
             We begin by asking a question, and answering the question in two ways:
@@ -1261,9 +1297,22 @@
       <example>
         <statement>
           <p>
-            Give a combinatorial proof of the identities <m>\binom{n}0 = 1</m>. What question should we answer?
+            Give a combinatorial proof of the identities:
+            <ol>
+              <li>
+                <m>\binom{n}0 = 1</m>.
+              </li>
+              <li>
+                <m>\binom{n}{k} = \binom{n}{n-k}</m>
+              </li>
+            </ol>
+            For each, what question should we answer?
           </p>
         </statement>
+        <answer>
+          <video youtube="H06ogHj320U"/>
+        </answer>
+
       </example>
 
 
@@ -1280,6 +1329,10 @@
         <hint>
           How many pizzas of <m>n</m> toppings can be made if we can choose from <m>2n</m> toppings? 
         </hint>
+        <answer>
+          <video youtube="4N5qJMBCXLg"/>
+        </answer>
+
       </example>
 
 
@@ -1750,6 +1803,10 @@
           Condition on the location of the last domino.
         </p>
       </hint>
+      <answer>
+        <video youtube="6zh5-2E9-ks"/>
+      </answer>
+
     </example>
 
     <!-- This exercise comes from an identity in Proofs that Really Count -->
@@ -1764,6 +1821,10 @@
           Condition on the location of the last square.
         </p>
       </hint>
+      <answer>
+        <video youtube="3vCrjZQQqCQ"/>
+      </answer>
+
     </example>
 
     <p>
@@ -1782,21 +1843,10 @@
           Condition on the breakability at cell <m>m</m>.
         </p>
       </hint>
-    </example>
+      <answer>
+        <video youtube="o-10ucHM9Us"/>
+      </answer>
 
-
-    <!-- This exercise comes from an identity in Proofs that Really Count -->
-    <example>
-      <statement>
-        <p>
-          For <m>n\ge 0,\, f_0 + f_2 + f_4 + \dots + f_{2n} = f_{2n+1}</m>.
-        </p>
-      </statement>
-      <hint>
-        <p>
-          Condition on the location of the last square.
-        </p>
-      </hint>
     </example>
 
 
@@ -1805,6 +1855,9 @@
       <statement>
         <p>
           For <m>n \ge 0,\, \binom{n}{0} + \binom{n-1}{1} + \binom{n-2}{2} + \dots + \binom{n-n}{n} = f_n</m>. 
+        </p>
+        <p>
+          Note that we'll define <m>\binom{n}{k} = 0</m> if <m>n \lt k</m>. This is reasonable since, for example, if you want to choose 3 objects from a set of 1 object, there are no ways to do it: i.e. <m>\binom{1}{3} = 0</m>.
         </p>
       </statement>
       <hint>
