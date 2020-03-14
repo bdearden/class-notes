@@ -21,6 +21,9 @@ clean:
 publish-to-web: html
 	rsync -zartv --include "*/" --include="*.html" --exclude="*" ./  ~/public_html/class-notes
 
+publish-to-web-covid19-panic-version: html
+	rsync -zartv --include "*/" --include="*.html" --exclude="*" ./  ~/public_html/class-notes
+
 online: html
 	rsync -zartv --include "*/" --include="*.html" --exclude="*" ./  ~/public_html/math321
 
