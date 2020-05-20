@@ -51,9 +51,6 @@
           <li> <m> \mathbb{C} = \{a + bi \mid a \in \mathbb{R}, b \in \mathbb{R}, i = \sqrt{-1} \} </m> is the set of <term>complex numbers</term> </li>
         </dl>
       </p>
-      <answer>
-        <video youtube="QyDUE4zSIEU"/>
-      </answer>
     </definition>
 
     <definition>
@@ -68,9 +65,6 @@
         <me>A = B \iff (A \subseteq B \text{ and } B \subseteq A)</me>
       </p>
 
-      <answer>
-        <video youtube="cAh-4Xe7Auc"/>
-      </answer>
     </definition>
 
     <!-- todo keep working on this -->
@@ -122,9 +116,6 @@
         </ol>
       </statement>
 
-      <answer>
-        <video youtube="Xqe7xNxH4aE"/>
-      </answer>
     </example>
 
     <definition>
@@ -152,9 +143,6 @@
         </ol>
       </statement>
 
-      <answer>
-        <video youtube="CRqvTn3ncPY"/>
-      </answer>
     </example>
 
   </subsection>
@@ -196,9 +184,6 @@
         </ol>
       </statement>
 
-      <answer>
-        <video youtube="TeCOF_lO5qU"/>
-      </answer>
     </example>
 
     
@@ -328,9 +313,6 @@
         </ol>
       </statement>
 
-      <answer>
-        <video youtube="aj5UcvPjCoQ"/>
-      </answer>
     </example>
     <note>
       <statement>
@@ -359,9 +341,6 @@
       </statement>
 
 
-      <answer>
-        <video youtube="VVXEDmYGy2s"/>
-      </answer>
     </example>
 
     <note>

@@ -33,9 +33,6 @@
           If in your closet you have five ironic t-shirts, three pairs of pants, and three collegiate hats, how many different outfits do you have? Here an outfit is pants, shirt, hat.
         </p>
       </statement>
-      <answer>
-        <video youtube="k4oWbV1LJmI"/>
-      </answer>
 
     </example>
 
@@ -46,9 +43,6 @@
           How many six character license plates can there be if the first three characters are letters and the second three characters are numbers? 
         </p>
       </statement>
-      <answer>
-        <video youtube="CjfCNyN6u6Y"/>
-      </answer>
 
     </example>
 
@@ -58,9 +52,6 @@
           How many playing cards in a standard deck are both red and face cards? 
         </p>
       </statement>
-      <answer>
-        <video youtube="HFZhiLMOBvI"/>
-      </answer>
 
     </example>
 
@@ -79,9 +70,6 @@
           If in your closet you have five ironic t-shirts, three pairs of pants, and three collegiate hats, how many different items do you have in your closet? 
         </p>
       </statement>
-      <answer>
-        <video youtube="Lg_qUGm9gJA"/>
-      </answer>
 
     </example>
 
@@ -125,9 +113,6 @@
           Suppose a company receives 350 applications from college graduates for a job. Suppose 220 of these applicants majored in computer science, 147 majored in business, and 51 majored in both computer science and business. How many majored in neither computer science nor business? 
         </p>
       </statement>
-      <answer>
-        <video youtube="kLfJ5VaeykE"/>
-      </answer>
 
     </example>
 
@@ -137,9 +122,6 @@
           How many bit strings of length eight either start with a 1 bit or end with two bits 00? 
         </p>
       </statement>
-      <answer>
-        <video youtube="dY1b9qJkQig"/>
-      </answer>
 
     </example>
 
@@ -151,9 +133,6 @@
           There are 30 people in a club. Assuming everyone is qualified to serve in any position, how many different ways are there to assign a president, vice-president, secretary, and treasurer?
         </p>
       </statement>
-      <answer>
-        <video youtube="EOuaukRnxBU"/>
-      </answer>
 
     </example>
 
@@ -176,9 +155,6 @@
           How many students can play at least one instrument? Solve this first by Venn Diagrams, then by PIE.
         </p>
       </statement>
-      <answer>
-        <video youtube="9rghTsZO-ME"/>
-      </answer>
 
     </example>
 
@@ -250,14 +226,6 @@
           </ol>
         </p>
       </statement>
-      <answer>
-        <p>
-          <video youtube="MnMQLZ9NmIY"/>
-        </p>
-        <p>
-          <url href="https://en.wikipedia.org/wiki/Birthday_problem">Wikipedia Article on the birthday problem</url>
-        </p>
-      </answer>
 
     </example>
 
@@ -284,9 +252,6 @@
           How many cards must be selected from a standard deck of 52 cards in order that at least three have the same suit? 
         </p>
       </statement>
-      <answer>
-        <video youtube="SoFDcgO1lio"/>
-      </answer>
 
       <solution>
         According to the Generalized Pigeonhole Principle, we want to determine the number of cards, <m>N</m>, that must be drawn (here <m>k = 4</m> suits):
@@ -665,9 +630,6 @@
           If I want to arrange five books on a shelf, how many possible arrangements of the books are there?
         </p>
       </statement>
-      <answer>
-        <video youtube="UF_xPGO71hw"/>
-      </answer>
 
     </example>
 
@@ -677,9 +639,6 @@
           How many functions <m>f: \{1,2,3\} \to \{1, 2, 3\}</m> are bijections? 
         </p>
       </statement>
-      <answer>
-        <video youtube="5pR7X1gqOcI"/>
-      </answer>
 
     </example>
 
@@ -690,9 +649,6 @@
           If I only want to arrange three of the five books on my shelf, how many ways are there to do that?
         </p>
       </statement>
-      <answer>
-        <video youtube="fTxhoMDB5A8"/>
-      </answer>
 
     </example>
 
@@ -721,9 +677,6 @@
           How many six-letter vanity license plates are there that have no repeated letters? 
         </p>
       </statement>
-      <answer>
-        <video youtube="u9ypy1ZZ6qI"/>
-      </answer>
 
     </example>
 
@@ -734,9 +687,6 @@
           How many functions <m>f: \{1,2,3,4\} \to \{1,2,3,4,5,6\}</m> are injective? [Recall a function is injective <m>\forall a, \forall b ( f(a) = f(b)) \to ( a = b )</m>]
         </p>
       </statement>
-      <answer>
-        <video youtube="7-6KTaUl2G8"/>
-      </answer>
 
     </example>
 
@@ -755,9 +705,6 @@
           If I want only to select three books from my five books on the bookshelf, in how many ways can I do this? 
         </p>
       </statement>
-      <answer>
-        <video youtube="0DGmoVjw4Ms"/>
-      </answer>
 
     </example>
 
@@ -776,9 +723,6 @@
           How many ways are there to choose five out of ten friends to invite over for dinner?
         </p>
       </statement>
-      <answer>
-        <video youtube="PX5JPp49HBw"/>
-      </answer>
 
     </example>
 
@@ -788,9 +732,6 @@
           Two of your ten friends, Tim and Tammy just broke up. They can't stand to be in a room together. How many ways are there to choose five out of ten friends to invite to dinner, ensuring that Tim and Tammy are not both invited?
         </p>
       </statement>
-      <answer>
-        <video youtube="XDS19xuU2d8"/>
-      </answer>
 
     </example>
 
@@ -800,9 +741,6 @@
           How many three element subsets from a set of five elements are there?
         </p>
       </statement>
-      <answer>
-        <video youtube="djWnHnLekz0"/>
-      </answer>
 
     </example>
 
@@ -812,9 +750,6 @@
           From a standard deck of 52 cards, how many five card hands are possible?
         </p>
       </statement>
-      <answer>
-        <video youtube="taUwZ3TCJ2Y"/>
-      </answer>
 
     </example>
 
@@ -824,9 +759,6 @@
           How many five card cards have exactly the same suit? 
         </p>
       </statement>
-      <answer>
-        <video youtube="uVvEBsD082s"/>
-      </answer>
 
     </example>
 
@@ -836,9 +768,6 @@
           How many five card hands have at least one heart?
         </p>
       </statement>
-      <answer>
-        <video youtube="h7IgJde5bvY"/>
-      </answer>
 
     </example>
 
@@ -1089,9 +1018,6 @@
             </me>
           </p>
         </statement>
-        <answer>
-          <video youtube="_X2WjIsgoDo"/>
-        </answer>
 
       </theorem>
 
@@ -1248,9 +1174,6 @@
             by viewing the binomial coefficients as counting subsets.
           </p>
         </statement>
-        <answer>
-          <video youtube="56Myzj8jzqk"/>
-        </answer>
 
         <solution>
           <p>
@@ -1309,9 +1232,6 @@
             For each, what question should we answer?
           </p>
         </statement>
-        <answer>
-          <video youtube="H06ogHj320U"/>
-        </answer>
 
       </example>
 
@@ -1329,9 +1249,6 @@
         <hint>
           How many pizzas of <m>n</m> toppings can be made if we can choose from <m>2n</m> toppings? 
         </hint>
-        <answer>
-          <video youtube="4N5qJMBCXLg"/>
-        </answer>
 
       </example>
 
@@ -1803,9 +1720,6 @@
           Condition on the location of the last domino.
         </p>
       </hint>
-      <answer>
-        <video youtube="6zh5-2E9-ks"/>
-      </answer>
 
     </example>
 
@@ -1821,9 +1735,6 @@
           Condition on the location of the last square.
         </p>
       </hint>
-      <answer>
-        <video youtube="3vCrjZQQqCQ"/>
-      </answer>
 
     </example>
 
@@ -1843,9 +1754,6 @@
           Condition on the breakability at cell <m>m</m>.
         </p>
       </hint>
-      <answer>
-        <video youtube="o-10ucHM9Us"/>
-      </answer>
 
     </example>
 

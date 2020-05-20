@@ -32,9 +32,7 @@
         </ol>
       </p>
     </statement>
-    <answer>
-      <video youtube="D-Ol2N5Tno0"/>
-    </answer>
+
 
   </definition>
 
@@ -77,9 +75,7 @@
         Prove that <m>\ds 1 + 2 + 3 + \dots + n = \frac{n(n+1)}{2}</m>.
       </p>
     </statement>
-    <answer>
-      <video youtube="_LI6XX-l3Es"/>
-    </answer>
+
 
   </example>
 
@@ -89,9 +85,7 @@
         Prove that <m>a + ar + ar^2 + ar^3 + \dots + ar^n = \frac{ar^{n+1}-a}{r-1}</m> if <m>r \ne 1</m>.
       </p>
     </statement>
-    <answer>
-      <video youtube="n1IX0Dye7x0"/>
-    </answer>
+
 
   </example>
 
@@ -108,9 +102,7 @@
         </ol>
       </p>
     </statement>
-    <answer>
-      <video youtube="bJ-56RhKkfc"/>
-    </answer>
+
 
   </example>
 
@@ -120,9 +112,7 @@
         Prove that <m>2^n \gt n^2</m> for <m>n > 4</m>
       </p>
     </statement>
-    <answer>
-      <video youtube="DLiv7yoaEUE"/>
-    </answer>
+
 
   </example>
 
@@ -168,9 +158,7 @@
         Let <m>P(n)</m> be the statement that <q>postage of <m>n</m> cents can be formed using just 4 cent and 7 cent stamps</q>. Prove <m>P(n)</m> is true for <m>n\ge 18</m>.
       </p>
     </statement>
-    <answer>
-      <video youtube="73v1BI2omjs"/>
-    </answer>
+
 
   </example>
 
@@ -181,9 +169,7 @@
         Prove that every positive integer has a binary expansion, that is, it is either a power of two or it is a sum of distinct powers of two.
       </p>
     </statement>
-    <answer>
-      <video youtube="PvnCjyp9NHc"/>
-    </answer>
+
 
   </example>
 

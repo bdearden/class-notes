@@ -22,9 +22,7 @@
         <li><m>a_n = -5 + 3n</m></li>
       </ol>
     </statement>
-    <answer>
-      <video youtube="ZNgKw-fIzLk"/>
-    </answer>
+
 
   </example>
 
@@ -57,9 +55,7 @@
         <me>F_n = F_{n-1} + F_{n-2} \text{ For } n \ge 2, \text{ where } F_0 = 0, F_1 = 1 </me>
       </p>
     </statement>
-    <answer>
-      <video youtube="zo_GYIP61i8"/>
-    </answer>
+
 
   </example>
 
@@ -75,9 +71,7 @@
         <li><m>a_n = (-4)^n</m></li>
       </ol>
     </statement>
-    <answer>
-      <video youtube="4HTdTrMp9sY"/>
-    </answer>
+
 
   </example>
 
@@ -97,10 +91,6 @@
         <li><m>a_n = 2n a_{n-1}</m> with <m>a_0 = 3</m></li>
       </ol>
     </statement>
-    <answer>
-      <video youtube="e3bMOe2fbKg"/>
-      <video youtube="gBSNZsWxRZ8"/>
-    </answer>
 
   </example>
 
@@ -171,9 +161,7 @@
         <li><m>\displaystyle \sum_{j=1}^2 \sum_{k=1}^5 (k-j) </m></li>
       </ol>
     </statement>
-    <answer>
-      <video youtube="dCVopWx51sc"/>
-    </answer>
+
 
   </example>
 
@@ -184,9 +172,7 @@
         <me>\sum_{k=0}^n ar^k = \frac{a-ar^{n+1}}{1-r}</me>.
       </p>
     </statement>
-    <answer>
-      <video youtube="K8eg6Cd_QL8"/>
-    </answer>
+
 
   </example>
 
@@ -197,9 +183,7 @@
         Show that <me>\sum_{j=1}^n (a_j - a_{j-1}) = a_n - a_0</me>
       </p>
     </statement>
-    <answer>
-      <video youtube="xY9ZHorCv4I"/>
-    </answer>
+
 
   </example>
 
@@ -213,9 +197,7 @@
         <li>Using the sequence <m>a_n=n^2</m>, find a formula for the sum <m>\displaystyle \sum_{k=1}^n k</m> by the finding the sum two ways.</li>
       </ol>
     </statement>
-    <answer>
-      <video youtube="1SD1LJv22Cg"/>
-    </answer>
+
 
   </example>
 
