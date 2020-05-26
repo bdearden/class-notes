@@ -1129,6 +1129,7 @@
       </p>
       <sidebyside width="80%">
         <image xml:id="pascal-small">
+          <description>Pascal's triangle</description>
           <latex-image>
             \begin{tikzpicture}
             \def\r{.5}
@@ -1648,6 +1649,7 @@
         </p>
         <p>
           <image xml:id="tilings-of-4board">
+            <description>Tilings of a 4-board: 4sq; 1dom, 2sq; sq, dom, sq; 2sq, 1dom; 2dom</description>
             <latex-image>
               % tilings of a 4 board:
               \begin{tikzpicture}[scale=1.0]
@@ -1719,6 +1721,7 @@
         
         <p>
           <image xml:id="tiling-5-board">
+            <description>Tiling a 5-board: The 5-board is a 4-board with square plus a 3-board plus domino</description>
             <latex-image>
               \begin{tikzpicture}[scale=1.0]
               \foreach \col in {0,2,3}{
@@ -1855,6 +1858,9 @@
       <statement>
         <p>
           For <m>n \ge 0,\, \binom{n}{0} + \binom{n-1}{1} + \binom{n-2}{2} + \dots + \binom{n-n}{n} = f_n</m>. 
+        </p>
+        <p>
+          Note that we'll define <m>\binom{n}{k} = 0</m> if <m>n \lt k</m>. This is reasonable since, for example, if you want to choose 3 objects from a set of 1 object, there are no ways to do it: i.e. <m>\binom{1}{3} = 0</m>.
         </p>
         <p>
           Note that we'll define <m>\binom{n}{k} = 0</m> if <m>n \lt k</m>. This is reasonable since, for example, if you want to choose 3 objects from a set of 1 object, there are no ways to do it: i.e. <m>\binom{1}{3} = 0</m>.
