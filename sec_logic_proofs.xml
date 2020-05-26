@@ -131,7 +131,6 @@
           Prove that the sum of two odd numbers is even.
         </p>
       </statement>
-
     </example>
 
 
@@ -141,7 +140,6 @@
           Prove that if <m>n</m> is even, then <m>n^2</m> is even.
         </p>
       </statement>
-
     </example>
 
     <example>
@@ -150,7 +148,6 @@
           Prove that if <m>m+n</m> and <m>n + p</m> are even integers, then <m>m+p</m> is even.
         </p>
       </statement>
-
     </example>
     
   </subsection>
@@ -179,7 +176,6 @@
             Show that if <m>n</m> is an integer and <m>n^3 + 5</m> is odd, then <m>n</m> is even.
           </p>
         </statement>
-
       </example>
       <example xml:id="example-n2even">
         <statement>
@@ -187,7 +183,6 @@
             Prove that if <m>n^2</m> is even, then <m>n</m> is even.
           </p>
         </statement>
-
       </example>
     </subsubsection>
 
@@ -195,7 +190,7 @@
       <title>Proof by Contradiction</title>
       <p>
         A proof by contradiction allows us to prove a statement <m>p</m> which is not necessarily conditional. We accomplish this by assuming <m>\neg p</m> is true, and finding a contradiction. This works because <me> \neg p \to (q \wedge \neg q) \equiv p</me> as we showed in <xref ref="example-contradiction-logic">example</xref>. Here's the model:
-      </p>`
+      </p>
 
       <proof>
         <p> Assume, to the contrary, that <m>p</m> is false, that is <m>\neg p</m> is true.</p> 

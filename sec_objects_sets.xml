@@ -723,6 +723,7 @@
                             \draw[thick] \circleA \circleAlabel \circleB \circleBlabel \twosetbox;
                           \end{tikzpicture}
                     </latex-image>
+                    <description>Venn diagram of <m>A\cup \bar B</m></description>
                   </image>
                 </sidebyside>
             </li>
@@ -738,6 +739,7 @@
           \draw[thick] \circleA \circleAlabel \circleB \circleBlabel \twosetbox;
         \end{tikzpicture}
                     </latex-image>
+                    <description>Venn diagram of <m>\bar{(A \cup B)}</m></description>
                   </image>
                 </sidebyside>
 
@@ -756,6 +758,7 @@
         \draw[thick] \circleA \circleAlabel \circleB \circleBlabel \circleC \circleClabel \threesetbox;
         \end{tikzpicture}
                     </latex-image>
+                    <description>Venn diagram of <m>A \cap (B \cup C)</m></description>
                   </image>
                 </sidebyside>
             </li>
@@ -774,6 +777,7 @@
                         \draw[thick] \circleA \circleAlabel \circleB \circleBlabel \circleC \circleClabel \threesetbox;
                         \end{tikzpicture}
                     </latex-image>
+                    <description> Venn diagram of <m>(A \cap B) \cup C</m></description>
                   </image>
                 </sidebyside>
             </li>
@@ -793,6 +797,7 @@
                         \draw[thick] \circleA \circleAlabel \circleB \circleBlabel \circleC \circleClabel \threesetbox;
                         \end{tikzpicture}
                     </latex-image>
+                    <description>Venn diagram of <m>\bar A \cap B \cap \bar C</m></description>
                   </image>
                 </sidebyside>
             </li>
@@ -809,6 +814,7 @@
                       \draw[thick] \circleA \circleAlabel \circleB \circleBlabel \circleC \circleClabel \threesetbox;
                       \end{tikzpicture}
                     </latex-image>
+                    <description>Venn diagram of <m>(A \cup B) \setminus C</m></description>
                   </image>
                 </sidebyside>
             </li>
@@ -843,6 +849,7 @@
                   (-1.5,-1.5) rectangle (2.5,1.5);
               \end{tikzpicture}
             </latex-image>
+            <description>Venn diagram: A is mostly shaded, B is mostly shaded, but the area where A and B overlap is not.</description>
           </image>
         </sidebyside>
       </statement>
