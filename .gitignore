@@ -38,3 +38,5 @@ ltxpng
 .directory
 temp.org
 *.listing
+/.auctex-auto/
+*.dep

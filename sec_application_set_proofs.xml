@@ -2,6 +2,14 @@
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_application_set_proofs">
   <title> Application: Set Properties and Equivalences </title>
 
+  <introduction>
+    <statement>
+      <p>
+        This section explores how we can apply the equivalences of logical statements to the set properties we explored in <xref ref="sec_objects_sets"/>. It is no coincidence that those set properties look nearly identical to the logical equivalences!
+      </p>
+    </statement>
+  </introduction>
+
   <definition>
     <title>Set operations defined via logic</title>
     <statement>
@@ -104,36 +112,132 @@
     </solution>
   </example>
 
-
-
-
   <exercises>
+    <p>
+      Let <m>A, B, \and C</m> be sets. Prove the following identities:
+    </p>
     <exercise>
       <statement>
         <p>
-          Let <m>A, B, \and C</m> be sets. Prove the following identities:
-          <ol>
-            <li>
-              <m>A \cup (B \cup C) = (A \cup B) \cup C</m>
-            </li>
-            <li>
-              <m>\overline{\overline{A}} = A</m>
-            </li>
-            <li>
-              <m>A \cup (A \cap B) = A</m>
-            </li>
-            <li>
-              <m>A \cup (B \cap C) = (A \cup B) \cap (A \cup C)</m>
-            </li>
-            <li>
-              <m>\overline{A \cap B} = \overline{A} \cup \overline{B}</m>
-            </li>
-            <li>
-              <m>A \subseteq B</m> if and only if <m>\overline{B} \subseteq \overline{A}</m>
-            </li>
-          </ol>
+          Prove <m>A \cup (B \cup C) = (A \cup B) \cup C</m>
         </p>
       </statement>
+      <solution>
+        <p>
+          Assume <m>x\in A \cup (B \cup C)</m>, then:
+          <md>
+            <mrow>x\in A \cup (B \cup C) \amp\equiv (x \in A) \lor (x \in B \cup C)</mrow>
+            <mrow>\amp\equiv (x \in A) \lor ((x \in B) \lor (x \in C))</mrow>
+            <mrow>\amp\equiv x \in A \lor x \in B \lor x \in C</mrow>
+            <mrow>\amp\equiv (x \in A \lor x \in B) \lor x \in C</mrow>
+            <mrow>\amp\equiv (x \in A \cup B) \lor x \in C</mrow>
+            <mrow>\amp\equiv x \in (\in A \cup B) \cup C</mrow>
+          </md>
+          and so <m>A \cup (B\cup C) = (A \cup B) \cup C</m>.
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Prove <m>\overline{\overline{A}} = A</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Assume <m>x \in \overline{\overline{A}}</m> then we have
+          <md>
+            <mrow>x \in \overline{\overline{A}} \amp \equiv \neg(x \in \overline{A})</mrow>
+            <mrow>\amp \equiv \neg(\neg (x \in A))</mrow>
+            <mrow>\amp \equiv x \in A</mrow>
+          </md>
+          and so <m>\overline{\overline{A}} = A</m>.
+        </p>
+      </solution>
+    </exercise>
+    <!-- <exercise> -->
+    <!--   <statement> -->
+    <!--     <p> -->
+    <!--       Prove <m>A \cup (A \cap B) = A</m> -->
+    <!--     </p> -->
+    <!--   </statement> -->
+    <!--   <solution> -->
+    <!--     <p> -->
+    <!--       Assume that <m>x \in A \cup (A \cap B)</m>, then: -->
+    <!--       <md> -->
+    <!--         <mrow>x \in A \cup (A \cap B) \amp \equiv x \in A \lor x\in A \cap B</mrow> -->
+    <!--         <mrow>\amp \equiv x \in A \lor (x \in A \land x \in B)</mrow> -->
+    <!--         <mrow>\amp \equiv (x \in A \lor x \in A) \land ( x\in A  \lor x \in B )</mrow> -->
+    <!--         <mrow>\amp \equiv (x \in A \lor x \in A) \land ( x\in A  ) </mrow> -->
+    <!-- I'm getting rid of this one because I need to appeal to simplification which I don't pick up until later. -->
+    <!--       </md> -->
+    <!--     </p> -->
+    <!--   </solution> -->
+    <!-- </exercise> -->
+    <exercise>
+      <statement>
+        <p>
+          Prove <m>A \cup (B \cap C) = (A \cup B) \cap (A \cup C)</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <em>Here we convert the expression of sets into a logical statement and apply the distributive law for logical statements.
+          </em>
+        </p>
+        <p>
+          Assume that <m>x \in A \cup (B\cap C)</m>, then:
+          <md>
+            <mrow>x \in A \cup (B \cap C) \amp \equiv x \in A \lor (x \in B \cap C) </mrow>
+            <mrow>\amp \equiv x \in A \lor (x\in B \land x \in C)</mrow>
+            <mrow>\amp \equiv (x \in A \lor x\in B) \land (x \in A \lor \in C)</mrow>
+            <mrow>\amp \equiv (x \in A \cup B) \land (x \in A \cup C)</mrow>
+            <mrow>\amp \equiv x \in (A \cup B) \cap (A \cup C)</mrow>
+          </md>
+          and therefore <m>A \cup (B \cap C) = (A \cup B) \cap (A \cup C)</m>.
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Prove <m>\overline{A \cap B} = \overline{A} \cup \overline{B}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <em>Our strategy is to first convert the statement into a logical statement and then apply DeMorgan's law for logical statements.</em>
+        </p>
+        <p>
+          Assume <m>x\in \overline{A \cap B}</m>. Then:
+          <md>
+            <mrow>\neg (x \in A\cap B) \amp \equiv \neg (x \in A \land x \in B) </mrow>
+            <mrow> \amp \equiv \neg (x \in A) \lor \neg (x \in B)</mrow>
+            <mrow> \amp \equiv x \in \overline{A} \lor x \in \overline{B}</mrow>
+          </md>
+          and so <m> \overline{A \cap B} = \overline{A} \cup \overline{B}</m>.
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Prove <m>A \subseteq B</m> if and only if <m>\overline{B} \subseteq \overline{A}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <em>Here our <q>trick</q> is to use the fact the the contrapositive is equivalent to the conditional. </em>
+        </p>
+        <p>
+          Assume <m>A \subseteq B</m>. This means that <m>x\in A \to x \in B</m>.
+          <md>
+            <mrow>x\in A \to x \in B \amp \equiv \neg(x\in B) \to \neg(x \in A) </mrow>
+            <mrow> \amp \equiv x \in \overline{B} \to x \in \overline{A}</mrow>
+          </md>
+          and thus <m>\overline{B} \subseteq \overline{A}</m>.
+        </p>
+      </solution>
     </exercise>
   </exercises>
 
